@@ -14,7 +14,8 @@ export class PickupCallCardComponent implements OnInit {
   @Input() updatedAt: string;
   @Input() createdAt: string;
   @Input() notes: string;
-  
+  @Input() value: string;
+
   constructor() { }
 
   ngOnInit() {}
